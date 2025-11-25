@@ -1,0 +1,28 @@
+{
+  "package_schema_version": "1.2.1",
+  "name": "log_progress_demo",
+  "version": "0.1.0",
+  "description": "An MCP server demonstrating logging and progress report",
+  "tags": [],
+  "author": {
+    "name": "Hatch User",
+    "email": ""
+  },
+  "license": {
+    "name": "MIT"
+  },
+  "entry_point": {
+    "mcp_server": "mcp_server.py",
+    "hatch_mcp_server": "hatch_mcp_server_entry.py"
+  },
+  "tools": [
+    {
+      "name": "example_tool",
+      "description": "Example tool function"
+    }
+  ],
+  "citations": {
+    "origin": "Origin citation for log_progress_demo",
+    "mcp": "MCP citation for log_progress_demo"
+  }
+}
